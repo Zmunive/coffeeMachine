@@ -1,0 +1,8 @@
+1. - Create a report
+2. - Message of how much money 
+3. - Message when we dont have enough materials to prepare a selection
+4. - Menu to select a coffe
+5. - Secret world to end the code "off"
+6 .- Ask for money after select and check if the machine has enough materials to prepare the coffee
+7 .- Show payments methods
+8 .- messae of completed and show again the selector
