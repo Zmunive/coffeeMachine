@@ -17,6 +17,16 @@ def get_data_from_json(file_name: str):
 def create_enumerated_list_from_dict(data: dict):
     return [f"{i}. {name.capitalize()}" for i, name in enumerate(data, start=1)]
 
+def coffeeProcess(selection: str) -> None:
+    coffeeData = cookbook_data[selection]
+
+
+
+def clear_screen() -> None:
+    if os.name == "nt":
+        os.system("cls")
+    else:
+        print("\033[2J\033[H", end="")
 
 def print_menu(selections: str) -> None:
     print(
